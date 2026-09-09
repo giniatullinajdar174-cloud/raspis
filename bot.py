@@ -9,7 +9,7 @@ from database import ScheduleDatabase
 load_dotenv()
 
 # Инициализация базы данных
-db = ScheduleDatabase()
+db = ScheduleDatabase("data/schedule.db")
 
 # Дни недели
 DAYS_OF_WEEK = {
